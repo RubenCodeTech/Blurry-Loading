@@ -9,10 +9,10 @@ function delay() {
         if (num < 100) {
             num++
             loadingCharge.innerHTML = num + "%"
-            delay()
         } else {
             loadingCharge.remove()
         }
+        delay()
     }, 10);
 
 }
